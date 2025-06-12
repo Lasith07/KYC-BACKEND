@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{B5F35E5B-C499-4D67-8DA9-44EE5FF06175}|Default">
+  <MonoDevelop.Ide.ItemProperties.vue-ts PreferredExecutionTarget="/Applications/Opera GX.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/SmsConfiguration.cs">
+    <Files>
+      <File FileName="vue-ts.csproj" Line="29" Column="11" />
+      <File FileName="ApplicationDbContext.cs" Line="77" Column="1" />
+      <File FileName="appsettings.Development.json" Line="20" Column="1" />
+      <File FileName="Models/Otp.cs" Line="15" Column="1" />
+      <File FileName="Models/SmsConfiguration.cs" Line="13" Column="1" />
+      <File FileName="Services/SmsService/ISmsService.cs" Line="1" Column="1" />
+      <File FileName="Services/SmsService/OtpService.cs" Line="59" Column="18" />
+      <File FileName="DTOs/Requests/OtpRequest.cs" Line="3" Column="18" />
+      <File FileName="DTOs/Requests/CreateDetailRequest.cs" Line="1" Column="1" />
+      <File FileName="DTOs/Requests/OtpVerificationRequest.cs" Line="1" Column="1" />
+      <File FileName="Services/SmsService/SmsService.cs" Line="28" Column="38" />
+      <File FileName="Controllers/OtpController.cs" Line="39" Column="2" />
+      <File FileName="Controllers/ImageController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/DetailController.cs" Line="1" Column="1" />
+      <File FileName="Services/SmsService/IOtpService.cs" Line="12" Column="2" />
+      <File FileName="DTOs/Responses/BaseResponse.cs" Line="8" Column="1" />
+      <File FileName="Migrations/20250605080133_first_migration.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="59" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="vue-ts" expanded="True">
+            <Node name="vue-ts">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOs" expanded="True">
+                <Node name="Requests" expanded="True" />
+                <Node name="Responses" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="SmsConfiguration.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="DetailService" expanded="True" />
+                <Node name="ImageService" expanded="True" />
+                <Node name="SmsService" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lasith/Projects/vue-ts/vue-ts/Services/SmsService/SmsService.cs" relfile="Services/SmsService/SmsService.cs" line="26" column="1" />
+      <Breakpoint file="/Users/lasith/Projects/vue-ts/vue-ts/Services/SmsService/OtpService.cs" relfile="Services/SmsService/OtpService.cs" line="34" column="1" />
+      <Breakpoint file="/Users/lasith/Projects/vue-ts/vue-ts/Controllers/OtpController.cs" relfile="Controllers/OtpController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/lasith/Projects/vue-ts/vue-ts/Controllers/OtpController.cs" relfile="Controllers/OtpController.cs" line="24" column="1" />
+      <Breakpoint file="/Users/lasith/Projects/vue-ts/vue-ts/Controllers/OtpController.cs" relfile="Controllers/OtpController.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
