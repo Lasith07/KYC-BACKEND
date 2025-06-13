@@ -1,11 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using vue_ts.Models;
+
 
 namespace vue_ts.Models
 {
     [Table("customer")]
     public class DetailModel
+
     {
+        [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int id { get; set; }
@@ -32,9 +36,11 @@ namespace vue_ts.Models
         [Required]
         public string nationality { get; set; }
 
-        //public static implicit operator DetailModel(DetailModel v)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        [Required]
+
+
+        public virtual ImageModel images { get; set; }
     }
 }
+    
+    

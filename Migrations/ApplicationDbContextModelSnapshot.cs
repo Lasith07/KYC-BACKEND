@@ -60,15 +60,15 @@ namespace vue_ts.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("NicBackImage")
+                    b.Property<string>("NicBackPath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("NicFrontImage")
+                    b.Property<string>("NicFrontPath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("SelfieImage")
+                    b.Property<string>("SelfiePath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -111,6 +111,23 @@ namespace vue_ts.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Otps", (string)null);
+                });
+
+            modelBuilder.Entity("vue_ts.Models.ImageModel", b =>
+                {
+                    b.HasOne("vue_ts.Models.DetailModel", "customer")
+                        .WithOne("images")
+                        .HasForeignKey("vue_ts.Models.ImageModel", "id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("customer");
+                });
+
+            modelBuilder.Entity("vue_ts.Models.DetailModel", b =>
+                {
+                    b.Navigation("images")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

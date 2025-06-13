@@ -4,7 +4,7 @@ using vue_ts.Services.DetailService;
 using vue_ts.Services.ImageService;
 using vue_ts.Services;
 using vue_ts.Models;
-
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -65,3 +65,8 @@ app.MapControllers();
 
 app.Run();
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "assets")),
+    RequestPath = "/assets"
+});

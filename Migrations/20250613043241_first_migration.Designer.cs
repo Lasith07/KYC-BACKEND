@@ -11,7 +11,7 @@ using vue_ts;
 namespace vue_ts.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250609100442_first_migration")]
+    [Migration("20250613043241_first_migration")]
     partial class first_migration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,15 +62,15 @@ namespace vue_ts.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("NicBackImage")
+                    b.Property<string>("NicBackPath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("NicFrontImage")
+                    b.Property<string>("NicFrontPath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("SelfieImage")
+                    b.Property<string>("SelfiePath")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -113,6 +113,23 @@ namespace vue_ts.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Otps", (string)null);
+                });
+
+            modelBuilder.Entity("vue_ts.Models.ImageModel", b =>
+                {
+                    b.HasOne("vue_ts.Models.DetailModel", "customer")
+                        .WithOne("images")
+                        .HasForeignKey("vue_ts.Models.ImageModel", "id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("customer");
+                });
+
+            modelBuilder.Entity("vue_ts.Models.DetailModel", b =>
+                {
+                    b.Navigation("images")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

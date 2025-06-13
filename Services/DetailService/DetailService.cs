@@ -53,7 +53,7 @@ namespace vue_ts.Services.DetailService
                 {
                     title = request.title,
                     fullName = request.fullName,
-                    mobileNumber = mobileNumber,
+                    mobileNumber = request.mobileNumber,
                     email = request.email,
                     nicNumber = request.nicNumber,
                     nationality = request.nationality

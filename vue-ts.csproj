@@ -25,5 +25,9 @@
     <Folder Include="Services\ImageService\" />
     <Folder Include="Services\SmsService\" />
     <Folder Include="DTOs\" />
+    <Folder Include="assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="assets\" />
   </ItemGroup>
 </Project>

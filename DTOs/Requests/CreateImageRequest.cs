@@ -1,19 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+
 namespace vue_ts.DTOs.Requests
 {
     public class CreateImageRequest
     {
         [Required]
-        public string SelfieImage { get; set; }      // base64 string
-
-        [Required]
-        public string NicFrontImage { get; set; }    // base64 string
-
-        [Required]
-        public string NicBackImage { get; set; }     // base64 string
-
-        [Required]
-        public int id { get; set; }
+        public int Id { get; set; }
+        public IFormFile? NicFrontImage { get; set; }
+        public IFormFile? NicBackImage { get; set; }
+        public IFormFile? SelfieImage { get; set; }
     }
 }

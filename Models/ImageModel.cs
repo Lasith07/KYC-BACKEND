@@ -4,25 +4,24 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace vue_ts.Models
 {
-    [Table ("images")]
-	public class ImageModel
-	{
-
+    [Table("images")]
+    public class ImageModel
+    {
+        [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
         public Guid customerid { get; set; }
 
-        [ForeignKey("id")]
-        public int id { get; set; } 
-
-        public string SelfieImage { get; set; }
         
-        public string NicFrontImage { get; set; }
+        [ForeignKey("customer")] 
+        public int id { get; set; }  
 
-        public string NicBackImage { get; set; }
+        
+        public virtual DetailModel customer { get; set; }
 
-       
+        public string SelfiePath { get; set; }
+        public string NicFrontPath { get; set; }
+        public string NicBackPath { get; set; }
+
+        
     }
 }
-
-
