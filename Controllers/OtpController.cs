@@ -30,7 +30,7 @@ namespace vue_ts.Controllers
             return _otpService.VerifyOtp(request);
         }
 
-        [HttpGet("test")]
+        [HttpPost("test")]
         public ActionResult<string> Test()
         {
             return "otp work";
