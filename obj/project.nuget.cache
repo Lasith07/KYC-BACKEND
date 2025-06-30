@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bAhQ3C9JABQ=",
+  "dgSpecHash": "vn30KiXFWo8=",
   "success": true,
   "projectFilePath": "/Users/lasith/Projects/vue-ts/vue-ts/vue-ts.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,7 @@
     "/Users/lasith/.nuget/packages/system.text.json/6.0.10/system.text.json.6.0.10.nupkg.sha512",
     "/Users/lasith/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "/Users/lasith/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "/Users/lasith/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.36/microsoft.netcore.app.host.osx-arm64.6.0.36.nupkg.sha512"
+    "/Users/lasith/.nuget/packages/microsoft.netcore.app.host.linux-arm64/6.0.36/microsoft.netcore.app.host.linux-arm64.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }

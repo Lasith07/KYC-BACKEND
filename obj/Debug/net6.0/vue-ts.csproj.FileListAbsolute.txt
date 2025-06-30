@@ -1,5 +1,9 @@
 /Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/appsettings.Development.json
 /Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/package-lock.json
+/Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/Users/lasith/published-linux-vue-ts/appsettings.Development.json
+/Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/Users/lasith/published-linux-vue-ts/package-lock.json
+/Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/Users/lasith/published-linux-vue-ts/vue-ts.deps.json
+/Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/Users/lasith/published-linux-vue-ts/vue-ts.runtimeconfig.json
 /Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/vue-ts
 /Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/vue-ts.deps.json
 /Users/lasith/Projects/vue-ts/vue-ts/bin/Debug/net6.0/vue-ts.runtimeconfig.json
