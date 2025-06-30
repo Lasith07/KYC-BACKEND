@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vue-ts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc91f99502246cee7f51abf7c3be5a5be84e95b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620436cbf3875cdf5fc5aa5b070e367fb7811950")]
 [assembly: System.Reflection.AssemblyProductAttribute("vue-ts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vue-ts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
